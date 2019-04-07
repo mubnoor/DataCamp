@@ -14,7 +14,7 @@ If 293 is involved in the list of nodes [u, v]:
 Set the weight of the edge between u and v to be 1.1.
 '''
 # Set the weight of the edge
-T[1][10]['weight'] = 2
+T[1, 10]['weight'] = 2
 
 # Iterate over all the edges (with metadata)
 for u, v, d in T.edges(data=True):
